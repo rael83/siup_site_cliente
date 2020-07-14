@@ -1,0 +1,16 @@
+{2019/07/15 10:57:43} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '27',
+  'SenderEmail' => 'washcosme@gmail.com',
+)) - begin 
+{2019/07/15 10:57:43} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '27',
+  'SenderEmail' => 'washcosme@gmail.com',
+)) - error [HTTP 401] - UNAUTHORIZED  
+{2019/08/19 01:22:11} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '29',
+  'SenderEmail' => 'gusta4543ira@uol.com.br',
+)) - begin 
+{2019/08/19 01:22:11} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '29',
+  'SenderEmail' => 'gusta4543ira@uol.com.br',
+)) - error [HTTP 400] - BAD_REQUEST 0 [11007] - redirectURL invalid value: http://wash-pc/clubinhodafesta.com.br/retornopagamento.php 

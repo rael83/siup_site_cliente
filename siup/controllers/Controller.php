@@ -97,8 +97,8 @@ class Controller
 		wp_enqueue_media();
 		wp_enqueue_editor();
 		wp_enqueue_script('media-upload');
-		//wp_enqueue_style( 'fileupload-ui', Componente::UrlVendors('jquery-file-upload/css/jquery.fileupload-ui.css' ), array(), 1, 'all' );
-		//wp_enqueue_style( 'fileupload', Componente::UrlVendors('jquery-file-upload/css/jquery.fileupload.css' ), array(), 1, 'all' );
+		wp_enqueue_style( 'fileupload-ui', Componente::UrlVendors('jquery-file-upload/css/jquery.fileupload-ui.css' ), array(), 1, 'all' );
+		wp_enqueue_style( 'fileupload', Componente::UrlVendors('jquery-file-upload/css/jquery.fileupload.css' ), array(), 1, 'all' );
 		wp_enqueue_style( 'jplist', Componente::UrlVendors('jplist/html/css/jplist-custom.css' ), array(), 1, 'all' );
 		wp_enqueue_style( 'dataTables', Componente::UrlVendors('DataTables/datatables.min.css' ), array(), 1, 'all' );
 		wp_enqueue_style( 'themesSIUP', Componente::UrlVendors('themes/style1/orange-grey.css' ), array(), 1, 'all' );

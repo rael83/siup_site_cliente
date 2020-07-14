@@ -1,0 +1,184 @@
+/*#region Geral*/
+.panel{
+    background-color: #FFF;
+    margin: 15px 0px;
+}
+input[type=number] {
+    height: 33px;
+    line-height: normal;
+}
+.fixed .column-date{
+    width: auto;
+}
+.F_R{
+    float: right;
+}
+.raio5{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.img220{
+    width: 220px;
+}
+.img100{
+    width: 100%;
+}
+.panel-heading .tools{
+	position: relative;
+	float: right;
+	display: inline-block;
+}
+.panel-heading .tools i{cursor: pointer;}
+.wp-core-ui select {max-width: 100% !important;}
+#wpfooter{
+    position:relative !important;
+}
+/*#endregion*/
+/*#region HOSTmensagem*/
+#HOSTmensagem{
+    display: none;
+}
+#HOSTmensagem a{
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+#HOSTmensagem span{
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+#HOSTmensagem.erro {
+    position: relative;
+    display: block;
+    float: left;
+    background-color: #f1e1e1;
+    margin: 5px 15px;
+    padding: 8px 15px;
+    width: Calc(100% - 32px);
+    border: none;
+    border-left: 4px solid #dc3232;
+}
+#HOSTmensagem.sucesso{
+    position: relative;
+    display: block;
+    float: left;
+    background-color: #d4ffcf;
+    margin: 5px 15px;
+    padding: 8px 15px;
+    width: Calc(100% - 32px);
+    border: 1px solid #f1f1f1;
+    border-left: 4px solid #0b9422;
+}
+#HOSTmensagem.erro i{ color: #dc3232; float: left; margin-right: 10px; }
+#HOSTmensagem.sucesso i{color: #0b9422;  float: left; margin-right: 10px; }
+.foto{
+    position: relative;
+    display: block;
+    float: left;
+    margin: 3px;
+    padding: 0px;
+    width: 64px;
+}
+.form-group div.date{float: initial !important;}
+textarea.form-control { height: auto !important;}
+input[type=color].form-control, input[type=date].form-control, input[type=datetime-local].form-control, input[type=datetime].form-control, input[type=email].form-control, input[type=month].form-control, input[type=number].form-control, input[type=password].form-control, input[type=search].form-control, input[type=tel].form-control, input[type=text].form-control, input[type=time].form-control, input[type=url].form-control, input[type=week].form-control, select.form-control, textarea.form-control {
+    border: 1px solid #cccccc;
+    background-color: #fff;
+    color: #32373c;
+}
+/*#endregion*/
+/*#region Lista de icones*/
+.listaicones{
+    position: absolute;
+    float: left;
+    display: none;
+    width: 100%;
+    z-index: 1;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+.listaicones ul{
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 5px 8px;
+}
+.listaicones ul li{
+    position: relative;
+    float: left;
+    display: block;
+    font-size: xx-large;
+    margin: 0px;
+    padding: 4px 5px;
+}
+.btn-tab-editar{
+    font-size: large;
+    margin: 0px 5px 0px 0px;
+}
+.mensagem-erro{
+    position: relative;
+    float: left;
+    display: block;
+    font-size: large;
+    margin: 30px 0px;
+    padding: 4px 5px;
+    color: red;
+    text-align: center;
+    width: calc(100% - 10px);
+}
+#listadeicones{
+    position: absolute;
+    float: left;
+    display: block;
+    margin: 0px 0px;
+    padding: 4px 5px;
+    width: 600px;
+    z-index: 200;
+    background-color: #FFF;
+    border: 1px solid #cccccc;
+}
+#listadeicones ul{
+    position: relative;
+    float: left;
+    display: block;
+    margin: 0px 0px;
+    padding: 0px;
+    width: 100%;
+}
+#listadeicones ul li{
+    position: relative;
+    float: left;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+#listadeicones ul li a{
+    position: relative;
+    float: left;
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+#listadeicones ul li a i{
+    position: relative;
+    font-size: x-large;
+    float: left;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+/*#endregion*/
+
+/*#region Adm àrea*/
+#area_tabela td:nth-of-type(4),#area_tabela td:nth-of-type(5) {text-align: center;}
+#area_tabela td i.icone{font-size: 45px;}
+#area_tabela td img{height: 45px;}
+/*#endregion*/
+
+/*#region Adm enquete*/
+#enquete_tabela td img{height: 45px;}
+/*#endregion*/

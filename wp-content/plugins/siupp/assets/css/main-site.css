@@ -1,0 +1,58 @@
+/* #region Geral*/
+
+/*@import url('./fonts/LocalBrewery-regular.woff2');
+@import url('./fonts/Merriweather-Bold.woff2');
+@import url('./fonts/Merriweather-Bold.woff2');
+@import url('./fonts/montserrat-bold.woff2');
+@import url('./fonts/montserrat-regular.woff2');
+@import url('./fonts/MerriweatherSans-Bold.woff2');
+@import url('./fonts/MerriweatherSans-Light.woff2');
+@import url('./fonts/MerriweatherSans-Regular.woff2');*/
+@font-face {
+    font-family: 'Merriweather Sans';
+    src:  url('./fonts/MerriweatherSans-Light.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body, h6, h5, h4, h3, h2, h1 #mainnav ul li a{
+    font-family:  "Merriweather Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+/* #endregion*/
+/* #region Adaptação de dimensão*/
+@media only screen and (max-width: 1930px) {
+}
+@media only screen and (max-width: 1440px) {
+}
+@media only screen and (max-width: 1399px) {
+}
+@media only screen and (max-width: 1199px) and (min-width: 970px) {
+}
+@media only screen and (max-width: 1199px) {
+}
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 991px) and (min-width: 970px) {
+}
+@media only screen and (max-width: 969px) {
+}
+@media only screen and (max-width: 939px) {
+}
+@media only screen and (max-width: 899px) {
+}
+@media only screen and (max-width: 780px) {
+}
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (max-width: 749px) {
+}
+@media only screen and (max-width: 640px) {
+}
+@media only screen and (max-width: 520px) {
+}
+@media only screen and (max-width: 480px) {
+}
+@media only screen and (max-width: 400px) {
+}
+@media only screen and (max-width: 320px) {
+}
+/*#endregion*/

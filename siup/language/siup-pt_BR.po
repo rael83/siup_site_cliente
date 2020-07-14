@@ -1,0 +1,331 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: autospravoce\n"
+"POT-Creation-Date: 2018-03-14 05:43-0300\n"
+"PO-Revision-Date: 2018-03-14 05:44-0300\n"
+"Last-Translator: \n"
+"Language-Team: washcosme@gmail.com\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: controllers/admauto.php:20 controllers/admauto.php:30
+msgid "Exibição em lista"
+msgstr ""
+
+#: controllers/admauto.php:20 controllers/admauto.php:30
+msgid "Exibição em grade"
+msgstr ""
+
+#: controllers/admauto.php:21 controllers/admauto.php:31
+msgid "-- Selecionar Tipo --"
+msgstr ""
+
+#: controllers/admauto.php:132
+msgid "Plugin está inativado."
+msgstr ""
+
+#: controllers/admauto.php:139
+msgid "Url para download não foi definida."
+msgstr ""
+
+#: controllers/admauto.php:146
+msgid "ID do cliente não foi definido."
+msgstr ""
+
+#: controllers/admauto.php:153
+msgid "Token do cliente não foi definido."
+msgstr ""
+
+#: controllers/admauto.php:161
+msgid "Não foi possível ler o xml do autospravoce."
+msgstr ""
+
+#: controllers/admauto.php:168
+msgid "Os veículos foram atualizados com sucesso."
+msgstr ""
+
+#: controllers/admauto.php:173
+msgid ""
+"Não foi possível salvar os dados da atualização dos veículos do autospravoce."
+msgstr ""
+
+#: controllers/admauto.php:184
+msgid "Configuração não poder ser realizada."
+msgstr ""
+
+#: controllers/admauto.php:193
+msgid "Configuração foi atualizada com sucesso."
+msgstr ""
+
+#: controllers/admauto.php:198
+msgid "Não foi possível salvar o dado da configuração."
+msgstr ""
+
+#: controllers/admauto.php:243 controllers/admauto.php:294
+msgid "Nenhum veículo foi localizado."
+msgstr ""
+
+#: controllers/admauto.php:309
+msgid "Campo de pesquisa não foi identificado."
+msgstr ""
+
+#: controllers/auto.php:34
+msgid "Painel Auto pra você"
+msgstr ""
+
+#: controllers/auto.php:34
+msgid "Auto pra você"
+msgstr ""
+
+#: controllers/auto.php:35 controllers/auto.php:36 controllers/auto.php:37
+#: controllers/auto.php:39
+msgid "Painel de Configurações"
+msgstr ""
+
+#: controllers/auto.php:35
+msgid "Configurações"
+msgstr ""
+
+#: controllers/auto.php:36
+msgid "Lista de Veículos"
+msgstr ""
+
+#: controllers/auto.php:37 views/atualizarautos.php:18
+msgid "Atualizar Veículos"
+msgstr ""
+
+#: controllers/auto.php:38
+msgid "Visualizar veículo"
+msgstr ""
+
+#: controllers/auto.php:39
+msgid "teste"
+msgstr ""
+
+#: models/veiculos.php:21
+msgid "-- Selecione --"
+msgstr ""
+
+#: models/veiculos.php:154
+msgid "Visualizar veículo no Autospravoce.com.br"
+msgstr ""
+
+#: views/atualizarautos.php:5
+msgid "Atualizar os veículos"
+msgstr ""
+
+#: views/atualizarautos.php:10
+msgid ""
+"Neste plugin você deve configurar uma tarefa cron no seu servidor para URL: "
+msgstr ""
+
+#: views/atualizarautos.php:11
+msgid ""
+"Copie e cole a url no cron do seu servidor, recomedamos que a tarefa seja "
+"executada de 12 em 12 horas.<br/>"
+msgstr ""
+
+#: views/atualizarautos.php:12
+msgid ""
+"Você também pode atualizar seu inventário de veículos clicando no botão "
+"\"Atualizar Veículos\".<br/>"
+msgstr ""
+
+#: views/configuracao.php:4
+msgid "Formulário de Configuração"
+msgstr ""
+
+#: views/configuracao.php:9
+msgid "Código no Autospravocê.com.br"
+msgstr ""
+
+#: views/configuracao.php:14
+msgid "Informe o seu código de cliente no Autospravocê.com.br"
+msgstr ""
+
+#: views/configuracao.php:18 views/configuracao.php:28
+#: views/configuracao.php:41 views/configuracao.php:53
+#: views/configuracao.php:66 views/configuracao.php:79
+#: views/configuracao.php:92 views/configuracao.php:105
+#: views/configuracao.php:117
+msgid "Salvar"
+msgstr ""
+
+#: views/configuracao.php:22
+msgid "Token de acesso"
+msgstr ""
+
+#: views/configuracao.php:25
+msgid "Informe o token de acesso gerado no site Autospravocê.com.br"
+msgstr ""
+
+#: views/configuracao.php:32
+msgid "Número da veículos a ser exibido"
+msgstr ""
+
+#: views/configuracao.php:37
+msgid ""
+"Informe o número da veículos a ser exibido na página de pesquisa e destaque"
+msgstr ""
+
+#: views/configuracao.php:45 views/painel.php:28 views/painel.php:65
+msgid "Tipo de exibição"
+msgstr ""
+
+#: views/configuracao.php:50
+msgid "Selecione o tipo de exibição na página de pesquisa e destaque"
+msgstr ""
+
+#: views/configuracao.php:57
+msgid "URL da API do Autospravocê.com.br"
+msgstr ""
+
+#: views/configuracao.php:62
+msgid ""
+"Informe o URL da API do Autospravocê.com.br para atualizar os seus veículos."
+msgstr ""
+
+#: views/configuracao.php:70
+msgid "URL da sua página de pesquisa"
+msgstr ""
+
+#: views/configuracao.php:75
+msgid "Informe o URL da página com o shortcode de pesquisa."
+msgstr ""
+
+#: views/configuracao.php:83
+msgid "URL da sua página de detalhes do veículo"
+msgstr ""
+
+#: views/configuracao.php:88
+msgid "Informe o URL da página com o shortcode de detalhes do veículo."
+msgstr ""
+
+#: views/configuracao.php:96
+msgid "Shortcode do formulário do contato do veículo"
+msgstr ""
+
+#: views/configuracao.php:101
+msgid "Informe o shortcode do formulário do contato do veículo."
+msgstr ""
+
+#: views/configuracao.php:109
+msgid "Código CSS"
+msgstr ""
+
+#: views/configuracao.php:113
+msgid "Informe o código css."
+msgstr ""
+
+#: views/configuracao.php:123 views/erroauto.php:12
+#: views/visualizarauto.php:113
+msgid "Voltar"
+msgstr ""
+
+#: views/destaqueveiculo.php:3 views/destaqueveiculo.php:31
+#: views/listaautos.php:46 views/pesquisaveiculo.php:3
+#: views/pesquisaveiculo.php:32
+msgid "Pesquisa"
+msgstr ""
+
+#: views/destaqueveiculo.php:42
+msgid "Carregando"
+msgstr ""
+
+#: views/erroauto.php:4 views/visualizarauto.php:4
+msgid "Visualizar dados do veículo"
+msgstr ""
+
+#: views/erroauto.php:8
+msgid "Veículo não foi encontrado no site."
+msgstr ""
+
+#: views/lista.php:20
+msgid "Ver detalhes"
+msgstr ""
+
+#: views/listaautos.php:4
+msgid "Pesquisa de veículos"
+msgstr ""
+
+#: views/listaautos.php:12
+msgid "Buscar"
+msgstr ""
+
+#: views/listaautos.php:65 views/pesquisaveiculo.php:47
+msgid "Carregar mais"
+msgstr ""
+
+#: views/painel.php:4
+msgid "Sobre o Plugin Autos pra você"
+msgstr ""
+
+#: views/painel.php:8
+msgid ""
+"Este plugin foi criado com o intuito de fazer uma integração do site "
+"Autospravoce.com.br com a plataforma Wordpress."
+msgstr ""
+
+#: views/painel.php:16
+msgid "Página de destaque"
+msgstr ""
+
+#: views/painel.php:21 views/painel.php:58
+msgid "Número da veículos"
+msgstr ""
+
+#: views/painel.php:37 views/painel.php:75
+msgid "Gerar shortcode"
+msgstr ""
+
+#: views/painel.php:53
+msgid "Página de Pesquisa"
+msgstr ""
+
+#: views/painel.php:92
+msgid "Página de Detalhe do veículo"
+msgstr ""
+
+#: views/painel.php:97
+msgid "Shortcode página de detalhes do veículos"
+msgstr ""
+
+#: views/visualizarauto.php:30
+msgid "Cor"
+msgstr ""
+
+#: views/visualizarauto.php:38
+msgid "Preço"
+msgstr ""
+
+#: views/visualizarauto.php:46
+msgid "Ano"
+msgstr ""
+
+#: views/visualizarauto.php:54
+msgid "Quilômetro"
+msgstr ""
+
+#: views/visualizarauto.php:63
+msgid "Visualizar veículo na Autospravoce.com.br"
+msgstr ""
+
+#: views/visualizarauto.php:68
+msgid "Visualizar veículo no seu site"
+msgstr ""
+
+#: views/visualizarauto.php:72
+msgid "Informações do veículo"
+msgstr ""
+
+#: views/visualizarauto.php:79
+msgid "Views"
+msgstr ""
